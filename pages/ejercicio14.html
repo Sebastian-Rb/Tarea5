@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/contacto.css">
+        <title>Página inicial</title>
+    </head>
+    <body>
+        <header  class="encabezado">
+            <div class="logo">
+            <img id="img" src="../images/logo.png" alt="sin imágen" width="75px">
+            <h1 class="titulo">Uso de ciclos</h1>
+        </div>
+            <nav>
+            <ul class="menu">
+                <a href="../index.html" class="btn-neon">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    INICIO
+                    </a>
+                    <a href="../pages/contacto.html" class="btn-neon">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        CONTACTO
+                        </a>
+                    
+            </ul>
+           </nav>
+        <p class="usuario">
+            Usuario: dverap
+        </p>
+        </header>
+        <main>
+            <section class="container">
+                    <h2 class="bienvenidos"> ㅤBienvenidos a mi sitio de programación</h2>
+                    <p>.</p>
+            </section>
+            
+            <section>
+                <header class="ejerciciox">
+                    <h2 id="contact">Ejercicio 4</h2>
+                </header>
+                
+                <div class="padreclass">
+                    <article class="formContainer">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="num1">
+                                    <input id="num1" type="text" placeholder="Cuántos elementos desea agregar al arreglo?">
+                                </label>
+                                <label for="num2">
+                                    <input id="num2" type="text" placeholder="Ingrese los numeros separados por una `,`">
+                                </label>
+                            </div>
+                
+                            <div class="form-group textArea">
+                                <label for="respuesta"> Los multiplos de 5 son:</label>
+                                <textarea id="respuesta" placeholder="Aquí se mostrará el resultado"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" onclick="ejercicio14()">Aceptar</button>
+                                <button type="reset">Resetear</button>
+                            </div>
+                        </form>
+                    </article>
+                    <div class="explicacion">
+                        <p>14. Presentar los números múltiplos de 5 de un arreglo</p>
+                        <p>Para encontrar los números múltiplos de 5 en un arreglo, recorremos cada elemento del arreglo y verificamos si es divisible por 5. Si el residuo de la división es 0, significa que el número es múltiplo de 5 y lo seleccionamos. Luego, mostramos los números seleccionados como resultado.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="../ejercicios.js"></script>
+    </body>
+</html>

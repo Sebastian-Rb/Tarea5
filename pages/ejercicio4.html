@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/contacto.css">
+        <title>Página inicial</title>
+    </head>
+    <body>
+        <header  class="encabezado">
+            <div class="logo">
+            <img id="img" src="../images/logo.png" alt="sin imágen" width="75px">
+            <h1 class="titulo">Uso de ciclos</h1>
+        </div>
+            <nav>
+            <ul class="menu">
+                <a href="../index.html" class="btn-neon">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    INICIO
+                    </a>
+                    <a href="../pages/contacto.html" class="btn-neon">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        CONTACTO
+                        </a>
+                    
+            </ul>
+           </nav>
+        <p class="usuario">
+            Usuario: dverap
+        </p>
+        </header>
+        <main>
+            <section class="container">
+                    <h2 class="bienvenidos"> ㅤBienvenidos a mi sitio de programación</h2>
+                    <p>.</p>
+            </section>
+            
+            <section>
+                <header class="ejerciciox">
+                    <h2 id="contact">Ejercicio 4</h2>
+                </header>
+                
+                <div class="padreclass">
+                    <article class="formContainer">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="num">ingrese un año:
+                                    <input id="num" type="text">
+                                </label>
+                                
+                            </div>
+                
+                            <div class="form-group textArea">
+                                <label for="respuesta">La respuesta es:</label>
+                                <textarea id="respuesta" placeholder="Aquí se mostrará el resultado"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" onclick="ejercicio4()">Aceptar</button>
+                                <button type="reset">Resetear</button>
+                            </div>
+                        </form>
+                    </article>
+                    <div class="explicacion">
+                        <p>4. Realice un algoritmo que permita determinar si un año es bisiesto o no.</p>
+                        <p>Para que un año sea bisiesto debe ser divisible por 4, excepto aquellos divisibles por 100 pero no por 400.
+                            Usando condicionales es un ejercicio de comparar con residuo %, si es igual a 0 continua la condicion
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="../ejercicios.js"></script>
+    </body>
+</html>

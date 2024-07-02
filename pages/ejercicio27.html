@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/contacto.css">
+        <title>Página inicial</title>
+    </head>
+    <body>
+        <header  class="encabezado">
+            <div class="logo">
+            <img id="img" src="../images/logo.png" alt="sin imágen" width="75px">
+            <h1 class="titulo">Uso de ciclos</h1>
+        </div>
+            <nav>
+            <ul class="menu">
+                <a href="../index.html" class="btn-neon">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    INICIO
+                    </a>
+                    <a href="#" class="btn-neon">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        CONTACTO
+                        </a>
+                    
+            </ul>
+           </nav>
+        <p class="usuario">
+            Usuario: dverap
+        </p>
+        </header>
+        <main>
+            <section class="container">
+                    <h2 class="bienvenidos"> ㅤBienvenidos a mi sitio de programación</h2>
+                    <p>.</p>
+            </section>
+            
+            <section>
+                <header class="ejerciciox">
+                    <h2 id="contact">Ejercicio 7</h2>
+                </header>
+                
+                <div class="padreclass">
+                    <article class="formContainer">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="men">Ingrese una cadena:
+                                    <input id="men" type="text" placeholder="">
+                                </label>
+                                
+                            </div>
+                
+                            <div class="form-group textArea">
+                                <label for="respuesta">La cadena sin espacio es:</label>
+                                <textarea id="respuesta" placeholder="Aquí se mostrará el resultado"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" onclick="ejercicio27()">Aceptar</button>
+                                <button type="reset">Resetear</button>
+                            </div>
+                        </form>
+                    </article>
+                    <div class="explicacion">
+                        <P>Eliminar espacios</P>
+                        <p>Para quitar los espacios de un texto, hacemos una función que recibe el texto que queremos modificar. Dentro de la función, creamos una variable para guardar el resultado después de eliminar los espacios. 
+                            Luego, recorremos el texto con un ciclo for y, en cada vuelta, revisamos si el carácter actual es un espacio. Si no es un espacio, lo añadimos a nuestra variable de resultado. 
+                            Al final, devolvemos el texto sin espacios.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="../ejercicios.js"></script>
+    </body>
+</html>

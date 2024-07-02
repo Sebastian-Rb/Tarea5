@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/contacto.css">
+        <title>Página inicial</title>
+    </head>
+    <body>
+        <header  class="encabezado">
+            <div class="logo">
+            <img id="img" src="../images/logo.png" alt="sin imágen" width="75px">
+            <h1 class="titulo">Uso de ciclos</h1>
+        </div>
+            <nav>
+            <ul class="menu">
+                <a href="../index.html" class="btn-neon">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    INICIO
+                    </a>
+                    <a href="#" class="btn-neon">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        CONTACTO
+                        </a>
+                    
+            </ul>
+           </nav>
+        <p class="usuario">
+            Usuario: dverap
+        </p>
+        </header>
+        <main>
+            <section class="container">
+                    <h2 class="bienvenidos"> ㅤBienvenidos a mi sitio de programación</h2>
+                    <p>.</p>
+            </section>
+            
+            <section>
+                <header class="ejerciciox">
+                    <h2 id="contact">Ejercicio 5</h2>
+                </header>
+                
+                <div class="padreclass">
+                    <article class="formContainer">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="men">Ingrese una cadena:
+                                    <input id="men" type="text" placeholder="">
+                                </label>
+                                <label for="num2">Ingrese el caracter que desea eliminar:
+                                    <input id="num2" type="text" placeholder="">
+                                </label>
+                            </div>
+                
+                            <div class="form-group textArea">
+                                <label for="respuesta">respuesta:</label>
+                                <textarea id="respuesta" placeholder="Aquí se mostrará el resultado"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" onclick="ejercicio25()">Aceptar</button>
+                                <button type="reset">Resetear</button>
+                            </div>
+                        </form>
+                    </article>
+                    <div class="explicacion">
+                        <p>Eliminar caracteres específicos</p>
+                        <p>Para eliminar caracteres específicos, recorremos la cadena y omitimos los caracteres que coinciden con el carácter a eliminar.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="../ejercicios.js"></script>
+    </body>
+</html>

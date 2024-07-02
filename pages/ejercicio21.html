@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/contacto.css">
+        <title>Página inicial</title>
+    </head>
+    <body>
+        <header  class="encabezado">
+            <div class="logo">
+            <img id="img" src="../images/logo.png" alt="sin imágen" width="75px">
+            <h1 class="titulo">Uso de ciclos</h1>
+        </div>
+            <nav>
+            <ul class="menu">
+                <a href="../index.html" class="btn-neon">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    INICIO
+                    </a>
+                    <a href="#" class="btn-neon">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        CONTACTO
+                        </a>
+                    
+            </ul>
+           </nav>
+        <p class="usuario">
+            Usuario: dverap
+        </p>
+        </header>
+        <main>
+            <section class="container">
+                    <h2 class="bienvenidos"> ㅤBienvenidos a mi sitio de programación</h2>
+                    <p>.</p>
+            </section>
+            
+            <section>
+                <header class="ejerciciox">
+                    <h2 id="contact">Ejercicio 1</h2>
+                </header>
+                
+                <div class="padreclass">
+                    <article class="formContainer">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="men">Ingrese una cadena:
+                                    <input id="men" type="text" placeholder="Ingrese el mensaje">
+                                </label>
+                                
+                            </div>
+                
+                            <div class="form-group textArea">
+                                <label for="respuesta">Los cadena invertida es:</label>
+                                <textarea id="respuesta" placeholder="Aquí se mostrará el resultado"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" onclick="ejercicio21()">Aceptar</button>
+                                <button type="reset">Resetear</button>
+                            </div>
+                        </form>
+                    </article>
+                    <div class="explicacion">
+                        <p>Invertir una cadena</p>
+                        <p>Con una variable cadena con los valores dados.
+                            Usamos la funcion split que convierte la cadena en un arreglo, reverse invierte el arreglo y join lo vuelve a convertir en cadena
+                            Listo, tienes una palabra o cadena invertida</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="../ejercicios.js"></script>
+    </body>
+</html>

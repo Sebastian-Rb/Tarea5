@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total del elemento */
+    background-image: url(../images/fondoazul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+.bienvenidos{
+    font-size: 18px;
+    transform: translateY(-5px);
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+#img{
+    height: 70;
+    width: 200;
+    transform: translate(20px, 43px);
+}
+.usuario{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    transform: translate(-20px, 52px)
+}
+#contact{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translateY(-30px);
+    text-transform: uppercase;
+}
+.titulo{
+    font-size:22px;
+    transform: translate(37px, 31px);
+    color: aliceblue;
+}
+
+.encabezado{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    list-style-type: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    transform: translateY(30px); /* Ajusta posicion del elemento en el eje y */
+}
+.formContainer {
+    background-color: linear-gradient(135deg, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2f448a, 0 0 30px #2f448a;
+    max-width: 400px;
+    width: 100%;
+    transform: translate(430px, -30px);
+}
+.ejer{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-size: "Poppins", sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 100px;
+    font-size: 35px;
+    transition: .3s linear;
+}
+.ejer:hover{
+    color: white;
+    text-shadow: 0 0 10px #2f448a,
+                 0 0 20px #2f448a,
+                 0 0 40px #2f448a,
+                 0 0 10px #2f448a,
+                 0 0 10px #2f448a,
+                 0 0 10px #2f448a;
+}
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+/*neon*/
+.btn-neon:hover{
+    background: #7dcfb6;
+    box-shadow: 0 0 10px #7dcfb6, 0 0 40px #7dcfb6;
+    transition-delay: 1s;
+}
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#7dcfb6 );
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#7dcfb6 );
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,#7dcfb6 );
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,#7dcfb6 );
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
